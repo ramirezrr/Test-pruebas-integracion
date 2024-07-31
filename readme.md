@@ -4,14 +4,17 @@
 
 Esta característica proporciona funcionalidad para gestionar mascotas en el sistema. Basado en los resultados de las pruebas, los siguientes escenarios han sido implementados y probados exitosamente:
 
-Esta es una implementación de muestra de un servidor de tienda de mascotas basado en la especificación OpenAPI 3.0. Utiliza el enfoque "design first", lo que permite mejorar la API en general y exponer algunas de las nuevas características en OAS3.
-
 ## Tecnologías Utilizadas
 - **Cucumber**: Para desarrollo basado en comportamiento (BDD).
 - **Serenity BDD**: Para gestión e informes de resultados de pruebas.
 - **Java 17**: Lenguaje de programación.
 - **Maven 3.9.6**: Gestión de construcción y dependencias.
 
+## Funcionalidad: Gestión de mascotas
+
+Esta es una implementación de muestra de un servidor de tienda de mascotas basado en la especificación OpenAPI 3.0.
+
+### Escenarios
 
 #### 1. Agregar Mascotas Nuevas en el Sistema
 - **Etiqueta:** `@AgregarMascotasNuevas`
@@ -136,7 +139,6 @@ Esta es una implementación de muestra de un servidor de tienda de mascotas basa
 
 ### Additional Information
 - Informe generado: 31-07-2024 00:42
-- Herramienta utilizada: Serenity BDD
 - [Repositorio de la Tienda de Mascotas](https://github.com/swagger-api/swagger-petstore)
 - [Definición de la API fuente para la Tienda de Mascotas](https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml)
 - URL de la API: https://petstore3.swagger.io/api/v3/openapi.json
